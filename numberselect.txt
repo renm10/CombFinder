@@ -1,0 +1,4 @@
+Enter the candidate numbers separated by a space: Ex. 1 9 12 14
+1 2 3
+Enter the Sum: Ex. 13
+4
