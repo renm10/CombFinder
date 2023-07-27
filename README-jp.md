@@ -3,11 +3,6 @@
 
 この一から作られたアルゴリズムは候補の数字のリストから足したら特定の合計になる全ての数字パターンを挙げることが出来ます。
 
-## 例
-候補: [1, 2, 3]　&nbsp; 合計 = 5  
-出力: [1,1,1,1,1]  [2,1,1,1]  [1,2,1,1]  [3,1,1]  [1,1,2,1]  
-[2,2,1]  [1,3,1]  [1,1,1,2]  [2,1,2] [1,2,2] [3,2]  [1,1,3]  [2,3]
-
 ## 使い方
 1. ファイル「numberselect.txt」の**二行目**を編集し候補となる数字をスペースで区切って入力します。  
 
@@ -24,3 +19,31 @@
     ./a.out //For Unix
     ./a.exe //For Windows
     ```
+
+## 例
+### サンプルインプット（ユーザー）
+numberselect.txt ファイル内:
+```
+1    Enter the candidate numbers separated by a space: Ex. 1 9 12 14
+2    1 2 3 //ユーザー変更可
+3    Enter the Sum: Ex. 13
+4    4 //ユーザー変更可
+```
+
+### サンプルアウトプット（上記の内容をインプットした場合）
+```
+Combination:
+1 1 1 1
+Combination:
+2 1 1
+Combination:
+1 2 1
+Combination:
+3 1
+Combination:
+1 1 2
+Combination:
+2 2
+Combination:
+1 3
+``` 
